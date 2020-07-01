@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+    font-size: 50px;
+    line-height: 1.5; /* 1.5 size hoặc px */
+    text-align: justify; /*can đều : justify */
+    font-family: "Times New Roman";
+    font-weight: bold; /* hoặc 100-900 */
+    text-decoration: underline; /*underline line-through overline none*/
+    text-indent: 20px; /*lùi dòng đầu*/
+    word-spacing: 5px;
+    text-transform: capitalize; /* none : viết gì nhận thế */
+    text-shadow: 5px 3px 5px red; /* đổ bóng 3d */
+    background-color: pink; /*màu nền*/
+}
+p{
+    color: green; //
+}
+body{
+    background-image: url("../imgs/pisces - horoscope-555747053-1590520128.jpg");
+    /*anh nen (cau truc ../imgs/  */
+    background-repeat: repeat; /*lặp ảnh full màn */
+    background-size: cover; /*kich thuoc anh nen - % - 500px 300 px */
+    background-color: white; /*đổ màu full*/
+}
