@@ -1,0 +1,36 @@
+div{
+    float: left; /*dồn màn hình left right none*/
+    width: 33.33%; /*do rong div px/%/calc...*/
+    height: 300px; /*chieu cao div*/
+    /*border: 1px dotted red; !*px loại tường (solid/dashed/dotted màu sắc*!*/
+    /*  border-bottom: blue;
+        border-top: green;
+        border-right: blueviolet;*/
+    padding: 10px; /*khoang cach giua box vơi border*/
+    /*padding : 10px 5px 10px 5px (4 lề nếu không có thì nhìn đối diện)*/
+    /*margin: 20px; /*khoang cach ngoai border (tham so giong padding)*/
+    box-sizing: border-box; /*dong hop theo width và height ko tac dong den margin*/
+    background-color: green;
+    overflow: auto; /*hidden : an di - auto tu dong cuon - visible : hien thi het*/
+}
+/*bo margin*/
+div > div {
+    float: left;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px dotted red;
+    background-color: rgba(179, 2, 255, 0.5);
+}
+/*div > img : img co thu muc truoc la div*/
+/*div img : img trong khu vuc div*/
+img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block; /*hien thi  block : hien , none : an */
+    /*keo anh gioi han do rong khi vuot qua*/
+    opacity: 0.8; /*độ mờ*/
+}
+#d1{
+    background-color: red;
+}
