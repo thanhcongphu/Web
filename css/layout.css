@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*header*/ /*1 the co the nhieu class*/
+.header{
+    padding: 15px 0;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.logo a{
+    font-size: 35px;
+    font-family: 'Modak', cursive;
+    color: #ff253a;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu{
+    float: right;
+    margin-top: 12px;
+}
+.menu li{
+    float: left;
+    margin-left: 35px;
+}/*don danh sach thang hang nhau*/
+.menu li a{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    color: darkgrey;
+    text-decoration: none;
+    transition: all 150ms;
+}
+.menu li a:hover{
+    color: black;
+}
+.menu li:first-child{/*chon li dau tien/ last-child, nth-child(2n+1/odd/even) : vi tri*/
+    list-style: none; /*mat dau cham*/
+}
+/*!important; uu tien*/
+.middle{
+    background-color: lightgray;
+}
+.content{
+    margin-top: 60px;
+    float: left;
+    width: 66.67%;
+    padding-right: 15px;
+}
+.sidebar{
+    margin-top: 60px;
+    float: right;
+    width: 33.33%;
+    padding-left: 15px;
+}
+.content .tweet{
+    background-image: url("../imgs/pisces - horoscope-555747053-1590520128.jpg");
+    background-size: 100% auto;
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+/*.content.tweet : chon class co ca content va tweet*/
+.tweet h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+.tweet p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.tweet .tweet-content{
+    background-color: rgba(255, 0, 0, 0.6);
+    padding: 30px;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.post{
+    background-color: white;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px;
+}
+.icon{
+    float: left;
+    margin: 5px 0 5px 15px;
+    width: 100%;
+}
+.post li{
+    float: left;
+    margin-left: 25px;
+    list-style: none;
+}
+.text{
+    float: left;
+    width: 100%;
+    margin-left: 15px;
+    height: 100px;
+    overflow: hidden;
+}
+.click{
+    float: left;
+    margin: 10px 0 0 15px;
+    background-color: red;
+    transform: all 150ms;
+    padding: 5px;
+}
+.click:hover{
+    transform: scale(1.15);
+}
+.click a{
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.recent{
+    background-color: white;
+    float: left;
+    padding: 25px;
+    width: 100%;
+}
+.recent h3{
+    text-transform: uppercase;
+}
+.recent .list{
+    float: left;
+    width: 100%;
+    padding: 20px 5px 5px 15%;
+}
+.recent .list .image{
+    float: left;
+    width: 30%;
+    height: 60px;
+}
+.recent .list img{
+    width: 40px;
+    height: 40px;
+}
+.recent .list .link{
+    float: left;
+    width: 50%;
+    height: 60px;
+}
+.recent .list a{
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+}

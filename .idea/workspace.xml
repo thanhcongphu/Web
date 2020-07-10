@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7a23ca2-dbc1-4f2d-a706-670b061c4a5a" name="Default Changelist" comment="Test">
-      <change beforePath="$PROJECT_DIR$/Demo Css.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoCss.html" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCss.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo_Css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,7 +66,16 @@
       <workItem from="1593602114254" duration="1320000" />
       <workItem from="1593603488925" duration="8452000" />
       <workItem from="1593773561454" duration="12386000" />
-      <workItem from="1594033517928" duration="6566000" />
+      <workItem from="1594033517928" duration="10383000" />
+      <workItem from="1594207653807" duration="10253000" />
+      <workItem from="1594378422722" duration="212000" />
+      <workItem from="1594378706910" duration="19000" />
+      <workItem from="1594379390886" duration="174000" />
+      <workItem from="1594379581154" duration="32000" />
+      <workItem from="1594379650217" duration="58000" />
+      <workItem from="1594380062594" duration="69000" />
+      <workItem from="1594380174478" duration="21000" />
+      <workItem from="1594380661908" duration="1154000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1593602717939</created>
@@ -97,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593612150103</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test">
+      <created>1594041465255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594041465255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,17 +135,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="441" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594379505131">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="441" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1594379505131" />
+    <state x="462" y="110" key="FileChooserDialogImpl" timestamp="1594380193296">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1594380193296" />
     <state x="557" y="71" key="RollbackChangesDialog" timestamp="1593612206914">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="557" y="71" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1593612206914" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1593612286805">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1594042996027">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593612286805" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1594042996027" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593603630222">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593603630222" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1594212821795">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1594212821795" />
   </component>
 </project>

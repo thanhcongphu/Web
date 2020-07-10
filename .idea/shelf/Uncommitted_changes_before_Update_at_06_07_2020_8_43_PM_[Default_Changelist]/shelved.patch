@@ -1,0 +1,45 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c7a23ca2-dbc1-4f2d-a706-670b061c4a5a\" name=\"Default Changelist\" comment=\"Test\">\r\n      <change beforePath=\"$PROJECT_DIR$/Demo Css.html\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/DemoCss.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/DemoCss.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Demo_Css.html\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1e5CY9KsIHPcYyTdyDUkNTrhsRp\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c7a23ca2-dbc1-4f2d-a706-670b061c4a5a\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1593602111983</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1593602111983</updated>\r\n      <workItem from=\"1593602114254\" duration=\"1320000\" />\r\n      <workItem from=\"1593603488925\" duration=\"8452000\" />\r\n      <workItem from=\"1593773561454\" duration=\"12386000\" />\r\n      <workItem from=\"1594033517928\" duration=\"6566000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Test\">\r\n      <created>1593602717939</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1593602717939</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Test\">\r\n      <created>1593611656831</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1593611656831</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Test\">\r\n      <created>1593612077584</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1593612077584</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Test\">\r\n      <created>1593612150103</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1593612150103</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Test\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Test\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"557\" y=\"71\" key=\"RollbackChangesDialog\" timestamp=\"1593612206914\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"557\" y=\"71\" key=\"RollbackChangesDialog/0.0.1366.738@0.0.1366.738\" timestamp=\"1593612206914\" />\r\n    <state x=\"275\" y=\"101\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1593612286805\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"275\" y=\"101\" key=\"Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738\" timestamp=\"1593612286805\" />\r\n    <state x=\"492\" y=\"282\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1593603630222\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"492\" y=\"282\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738\" timestamp=\"1593603630222\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 4b017aa25abc246feb34626018a11f1952735004)
++++ .idea/workspace.xml	(date 1594042898127)
+@@ -11,9 +11,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="c7a23ca2-dbc1-4f2d-a706-670b061c4a5a" name="Default Changelist" comment="Test">
+-      <change beforePath="$PROJECT_DIR$/Demo Css.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/DemoCss.html" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCss.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Demo_Css.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -67,7 +65,7 @@
+       <workItem from="1593602114254" duration="1320000" />
+       <workItem from="1593603488925" duration="8452000" />
+       <workItem from="1593773561454" duration="12386000" />
+-      <workItem from="1594033517928" duration="6566000" />
++      <workItem from="1594033517928" duration="8020000" />
+     </task>
+     <task id="LOCAL-00001" summary="Test">
+       <created>1593602717939</created>
+@@ -97,7 +95,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1593612150103</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Test">
++      <created>1594041465255</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1594041465255</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
