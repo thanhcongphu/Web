@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section .head{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+.section .left{
+    width: 70%;
+    padding: 10px;
+    background-color: rgba(169, 169, 169, 0.5);
+}
+.section .left .page{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.section .left .page .full{
+    width: 100%;
+    float: left;
+    height: 80px;
+    padding: 10px;
+}
+.section .left .page .half{
+    float: left;
+    width: 50%;
+    height: 80px;
+    padding: 10px;
+}
+.section .left .page .half select{
+    width: 100%;
+    height: 30px;
+}
+.section .left .page .card{
+    float: left;
+    width: 10%;
+}
+.section .left .page input{
+    width: 100%;
+    height: 30px;
+}
+.section .left .box{
+    font-size: 15px;
+    margin-left: 30px;
+}
+.section .left button{
+    width: calc(100% - 100px);
+    height: 50px;
+    margin: 10px 50px;
+    background-color: green;
+    font-size: 16px;
+    font-weight: 600;
+}

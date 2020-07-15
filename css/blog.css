@@ -16,6 +16,10 @@ body{
 }
 .section a:hover{
     color: green;
+    font-size: 16px;
+}
+.section i:hover{
+    transform: scale(1.3);
 }
 .container{
     width: 1200px;
@@ -37,17 +41,20 @@ body{
 .section .left .search{
     width: 100%;
     height: 45px;
-    padding: 15px;
+    padding: 10px;
     background-color: rgba(211, 211, 211, 0.5);
     text-align: center;
     font-size: 15px;
     transition: all 150ms;
 }
-.section .left .search p{
-    color: darkgrey;
+.section .left .search input[type=text]{
+    background-color: rgba(211, 211, 211, 0.1);
+    border: none;
+    height: 25px;
 }
 .section .left .search:hover i{
     transform: scale(1.5);
+    color: darkgrey;
 }
 .section .left .seo{
     width: 100%;
@@ -105,6 +112,9 @@ body{
 .section .right .page{
     width: 100%;
     margin-bottom: 50px;
+}
+.section .right .page h1:hover a{
+    font-size: 26px;
 }
 @keyframes picture1 {
     0%{
@@ -170,6 +180,7 @@ body{
 }
 .section .right .roll a:hover{
     background-color: green;
+    font-size: 14px;
 }
 .header .logo{
     float: left;

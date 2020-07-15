@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lap7</title>
+    <link rel="stylesheet" type="text/css" href="css/lap7.css">
+    <link rel="stylesheet" href="lib/Icon/css/all.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="head">
+                <h1>Responsive Checkout Form</h1>
+            </div>
+            <div class="left">
+                <div class="page">
+                    <h3>Billing Address</h3><br/>
+                    <div class="full">
+                        <p><i class="fas fa-user-edit"></i> Full name</p><br/>
+                        <input type="text" name="fullname" placeholder="Fullname..."/>
+                    </div>
+                    <div class="full">
+                        <p><i class="fas fa-envelope"></i> Email</p><br/>
+                        <input type="email" name="email" placeholder="Email..."/>
+                    </div>
+                    <div class="full">
+                        <p><i class="far fa-address-card"></i> Address</p><br/>
+                        <input type="text" name="address" placeholder="Address..."/>
+                    </div>
+                    <div class="full">
+                        <p><i class="fas fa-university"></i> City</p><br/>
+                        <input type="text" name="city" placeholder="City..."/>
+                    </div>
+                    <div class="half">
+                        <p>State</p><br/>
+                        <select name="state">
+                            <option value="NY">NewYord</option>
+                            <option value="LA">LosAngeles</option>
+                            <option value="CL">California</option>
+                            <option value="WS">Washington</option>
+                        </select>
+                    </div>
+                    <div class="half">
+                        <p>Zip code</p><br/>
+                        <input type="number" name="zip" placeholder="Zipcode..."/>
+                    </div>
+                </div>
+                <div class="page">
+                    <h3>Payment</h3><br/>
+                    <div class="full">
+                        <p>Accepted Cards</p><br/>
+                        <a href="#"><i class="fab fa-cc-visa"></i></a>
+                        <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                        <a href="#"><i class="fab fa-cc-amazon-pay"></i></a>
+                        <a href="#"><i class="fab fa-cc-paypal"></i></a>
+                    </div>
+                    <div class="full">
+                        <p>Name on card</p><br/>
+                        <input type="text" name="cardname" placeholder="Name on card..."/>
+                    </div>
+                    <div class="full">
+                        <p>Credit card number</p><br/>
+                        <input class="card" type="text" pattern="[0-9]{4}" name="cardnum1"/>
+                        <p style="margin: 0 5px;float: left"> - </p>
+                        <input class="card" type="text" pattern="[0-9]{4}" name="cardnum2"/>
+                        <p style="margin: 0 5px;float: left"> - </p>
+                        <input class="card" type="text" pattern="[0-9]{4}" name="cardnum3"/>
+                        <p style="margin: 0 5px;float: left"> - </p>
+                        <input class="card" type="text" pattern="[0-9]{4}" name="cardnum4"/>
+                    </div>
+                    <div class="full">
+                        <p>Exp month</p><br/>
+                        <input type="number" min="1" max="12" name="cardmonth" placeholder="Exp month..."/>
+                    </div>
+                    <div class="half">
+                        <p>Exp year</p><br/>
+                        <input type="number" min="2000" name="cardyear" placeholder="Exp year..."/>
+                    </div>
+                    <div class="half">
+                        <p>CVV</p><br/>
+                        <input type="number" max="999" name="cvv" placeholder="CVV..."/>
+                    </div>
+                </div>
+                <label class="box"><input type="checkbox" name="agree"/> Shipping address same as billing</label>
+                <br/>
+                <button type="submit">Continue to checkout</button>
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

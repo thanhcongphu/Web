@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*radio : cung name co the thay doi lua chon*/
+/*checkbox : bat vao tat di dc (radio chi co 1 lua chon se khong tat di dc)*/
+/*select multiple : chon nhieu cai (it dung)*/
+/*type button khong co tac dung voi form, type submit gui di, type reset f5*/
+/*required bat buoc phai nhap moi gui di duoc*/
+/*khong cho nhap : readonly chi doc van gui len may chu - disable khong gui len may chu*/
+input[type=text],input[type=email]{
+    float: left;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    background-color: darkgrey;
+}
+/*co the dung class de de dang cai dat*/
+/*dung div de thiet ke giao dien*/
