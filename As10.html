@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>As10</title>
+    <link rel="stylesheet" type="text/css" href="css/as10.css">
+    <link rel="stylesheet" href="lib/Icon/css/all.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div id="sanpham">
+<!--            <div class="sanpham">-->
+<!--                <a href="product1.html"><div class="left">-->
+<!--                    <img class="image1" src="imgs/a10product-8.jpg">-->
+<!--                    <img class="image2" src="imgs/a10product-8.1.jpg">-->
+<!--                </div></a>-->
+<!--                <div class="right">-->
+<!--                    <h2>GRAPHIC CORNER</h2></br>-->
+<!--                    <a href="product1.html"><h3>Fila Locker Room Varsity Jacket</h3></a>-->
+<!--                    <p style="color: yellow"><i class="fas fa-star"></i>-->
+<!--                        <i class="fas fa-star"></i>-->
+<!--                        <i class="fas fa-star"></i>-->
+<!--                        <i class="fas fa-star"></i>-->
+<!--                        <i class="fas fa-star"></i>-->
+<!--                    </p></br>-->
+<!--                    <p>€9.90</p></br>-->
+<!--                    <p>Create a cool and sporty look with the FILA® Locker Room Varsity Jacket.-->
+<!--                    </br>Comfortable cotton-blend fabrication.-->
+<!--                    </br>Classic varsity jacket features brand details throughout.-->
+<!--                    </br>Flat knit collar.</p></br>-->
+<!--                    <p>Availability: <b style="color: green"> 299 In Stock</b></p></br>-->
+<!--                    <a href="product1.html">ADD TO CART</a>-->
+<!--                    <a style="margin-left: 50px" href="pruduct1.html"><i class="fas fa-random"></i>-->
+<!--                        <i class="far fa-heart" style="margin-left: 10px"></i></a>-->
+<!--                </div>-->
+<!--                <a href="product1.html"><div class="icon">-->
+<!--                    <i class="fas fa-search"></i>-->
+<!--                </div></a>-->
+<!--            </div>-->
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        var cats = [
+            {
+                image1: "imgs/a10product-8.jpg",
+                image2: "imgs/a10product-8.1.jpg",
+                link: "product1.html",
+                title: "Fila Locker Room Varsity Jacket",
+                price: "€9.90",
+                content: "Create a cool and sporty look with the FILA® Locker Room Varsity Jacket.\n" +
+                    "                    </br>Comfortable cotton-blend fabrication.\n" +
+                    "                    </br>Classic varsity jacket features brand details throughout.\n" +
+                    "                    </br>Flat knit collar."
+            },
+            {
+                image1: "imgs/a10product-8.jpg",
+                image2: "imgs/a10product-8.1.jpg",
+                link: "product1.html",
+                title: "Fila Locker Room Varsity Jacket",
+                price: "€9.90",
+                content: "Create a cool and sporty look with the FILA® Locker Room Varsity Jacket.\n" +
+                    "                    </br>Comfortable cotton-blend fabrication.\n" +
+                    "                    </br>Classic varsity jacket features brand details throughout.\n" +
+                    "                    </br>Flat knit collar."
+            },
+            {
+                image1: "imgs/a10product-8.jpg",
+                image2: "imgs/a10product-8.1.jpg",
+                link: "product1.html",
+                title: "Fila Locker Room Varsity Jacket",
+                price: "€9.90",
+                content: "Create a cool and sporty look with the FILA® Locker Room Varsity Jacket.\n" +
+                    "                    </br>Comfortable cotton-blend fabrication.\n" +
+                    "                    </br>Classic varsity jacket features brand details throughout.\n" +
+                    "                    </br>Flat knit collar."
+            }
+        ];
+        cats.map(function (v) {
+            var sp = "<div class=\"sanpham\">"+
+                "<a href=\""+v.link+"\"><div class=\"left\">\n" +
+                "                    <img class=\"image1\" src=\""+v.image1+"\">\n" +
+                "                    <img class=\"image2\" src=\""+v.image2+"\">\n" +
+                "                </div></a>\n" +
+                "                <div class=\"right\">\n" +
+                "                    <h2>GRAPHIC CORNER</h2></br>\n" +
+                "                    <h3><a href=\""+v.link+"\">"+v.title+"</a></h3>\n" +
+                "                    <p style=\"color: yellow\"><i class=\"fas fa-star\"></i>\n" +
+                "                        <i class=\"fas fa-star\"></i>\n" +
+                "                        <i class=\"fas fa-star\"></i>\n" +
+                "                        <i class=\"fas fa-star\"></i>\n" +
+                "                        <i class=\"fas fa-star\"></i>\n" +
+                "                    </p></br>\n" +
+                "                    <p>"+v.price+"</p></br>\n" +
+                "                    <p>"+v.content+"</p></br>\n" +
+                "                    <p>Availability: <b style=\"color: green\"> 299 In Stock</b></p></br>\n" +
+                "                    <a href=\""+v.link+"\">ADD TO CART</a>\n" +
+                "                    <a style=\"margin-left: 50px\" href=\""+v.link+"\"><i class=\"fas fa-random\"></i>\n" +
+                "                        <i class=\"far fa-heart\" style=\"margin-left: 10px\"></i></a>\n" +
+                "                </div>\n" +
+                "                <a href=\""+v.link+"\"><div class=\"icon\">\n" +
+                "                    <i class=\"fas fa-search\"></i>\n" +
+                "                </div></a></div>";
+            document.getElementById("sanpham").innerHTML+=sp;
+        })
+    </script>
+</body>
+</html>

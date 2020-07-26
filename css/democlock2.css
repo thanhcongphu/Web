@@ -1,0 +1,32 @@
+.clock{
+    float: left;
+    background-image: url(../imgs/matdongho.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.kgio{
+    float: left;
+    position: absolute;
+    width: 50px;
+    height: 230px;
+    margin-top: 135px;
+    margin-left: 225px;
+}
+.kgiay{
+    float: left;
+    position: absolute;
+    width: 20px;
+    height: 290px;
+    margin-top: 102px;
+    margin-left: 240px;
+}
+.kphut{
+    float: left;
+    position: absolute;
+    width: 25px;
+    height: 280px;
+    margin-top: 112px;
+    margin-left: 238px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DemoJs3</title>
+</head>
+<body>
+    <h1 id="abc">Nhận định bóng đá Liverpool – Chelsea: Mở tiệc ở Anfield, “tặng quà” MU</h1>
+    <p class="pg">"Lữ đoàn đỏ" đã lên ngôi vô địch Premier League sớm 7 vòng đấu. Tuy nhiên, phải tới lượt cuối
+        được thi đấu trên sân nhà Anfield mùa này, họ mới được trao cúp.</p>
+    <p class="pg">Chính bởi vậy, thầy trò Klopp không muốn bất cứ đối thủ nào phá hỏng khoảnh khắc
+        ăn mừng sau 3 thập kỷ chờ đợi.</p>
+    <script type="text/javascript">
+        var h = document.getElementById("abc");
+        var p = document.getElementsByClassName("pg"); // p = tap hop cac class "pg"
+        h.style.textTransform = "uppercase";
+        for(var i=0;i<p.length;i++){  //cach duyet tap hop
+            p[i].style.color = "red";
+        }
+        var p2 = document.getElementsByTagName("p"); // p2 = tap hop cac the "p"
+        for(var e of p2){ //1 cach duyet tap hop khac
+            e.style.fontSize = "20px";
+        }
+        var p3 = document.querySelectorAll("p.pg"); // p3 = tap hop cac the "p" class "pg"
+        for(var e of p3){
+            e.style.fontWeight = "700";
+        }
+        var p4 = document.querySelectorAll("#abc");
+        var ip1= document.querySelectorAll("input[type=text]");
+        var ip2= document.querySelectorAll("input[name=email]");
+        var body = document.body; // body
+        var head = document.head; // head
+        var title = document.title; //title
+        var links = document.links; // cac links
+        var img = document.images; // cac img
+    </script>
+</body>
+</html>

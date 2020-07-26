@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock2</title>
+    <link rel="stylesheet" type="text/css" href="css/democlock2.css">
+</head>
+<body>
+    <h1><span class="hour">00</span>:<span class="min">00</span>:<span class="sec">00</span></h1>
+    </br>
+    <div class="clock">
+        <div class="kgio">
+            <img width="50" height="125" src="imgs/gio.jpg">
+        </div>
+        <div class="kgiay">
+            <img width="20" height="200" src="imgs/giay.jpg">
+        </div>
+        <div class="kphut">
+            <img width="25" height="150" src="imgs/phut.jpg">
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        var td = new Date();
+        var m1=td.getHours();m2=td.getMinutes(),m3=td.getSeconds();
+        setInterval(function () {
+            $(".kgio").css("transform","rotate("+m1*30+"deg)");
+            $(".kphut").css("transform","rotate("+m2*6+"deg)");
+            $(".kgiay").css("transform","rotate("+m3*6+"deg)");
+            $(".hour").text(m1<10?"0"+m1:m1);
+            $(".min").text(m2<10?"0"+m2:m2);
+            $(".sec").text(m3<10?"0"+m3:m3);
+            m3++;
+            if(m3==60){
+                m2++;
+                m3=0;
+            }
+            if(m2>=30) $(".kgio").css("transform","rotate("+(m1*30+15)+"deg)");
+            if(m2==60){
+                m2=0;
+                m1++;
+            }
+            if(m1==24) m1=0;
+        },1000)
+    </script>
+</body>
+</html>

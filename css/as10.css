@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: "Times New Roman";
+    line-height: 24px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section .sanpham{
+    margin: 20px 20px 0 20px;
+    width: calc(100% - 40px);
+    float: left;
+    box-shadow: 0 0 5px darkgrey;
+    position: relative;
+}
+.section .left{
+    width: 360px;
+    float: left;
+    padding: 50px 30px;
+    height: 400px;
+}
+.section .left .image1,.section .left .image2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+.section .icon{
+    text-align: center;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 180px;
+    margin-left: 150px;
+    padding: 20px;
+    color: black;
+    position: absolute;
+    opacity: 0;
+}
+.section .icon:hover{
+    color: white;
+    background-color: green;
+}
+.section .sanpham:hover{
+    box-shadow: 0 0 5px green;
+}
+.section .sanpham:hover .left .image2{
+    opacity: 0;
+}
+.section .sanpham:hover .icon{
+    opacity: 100;
+}
+.section .right{
+    width: calc(100% - 360px);
+    float: left;
+    padding: 30px;
+}
+.section .right a{
+    color: black;
+}
+.section .right h3 a{
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo_obj</title>
+</head>
+<body>
+    <h1 id="tensv"></h1>
+    <h2 id="tuoi">Tuoi: </h2>
+    <h3 id="bangai">Ten ban gai : </h3>
+    <ul id="vetinh">
+    </ul>
+    <script type="text/javascript">
+        var sv={
+            ten: "abc",
+            tuoi: 20,
+            bangai:{
+                ten: "xyz",
+                tuoi: 18,
+                vetinh:[
+                    {
+                        ten: "qwe",
+                        tuoi: 18
+                    },
+                    {
+                        ten: "asd",
+                        tuoi: 20
+                    }
+                ]
+            }
+        };
+        var h1 = document.getElementById("tensv");
+        h1.innerText = sv.ten;
+        document.getElementById("tuoi").innerText += " " + sv.tuoi; //noi them
+        document.getElementById("bangai").innerText += " " + sv.bangai.ten;
+        var vetinhs = sv.bangai.vetinh; //chen <li> vao danh sach
+        vetinhs.map(function (v) {
+            var li = "<li>"+v.ten+" tuoi : "+v.tuoi+"</li>";
+            document.getElementById("vetinh").innerHTML+=li;
+        })
+    </script>
+</body>
+</html>

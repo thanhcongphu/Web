@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery</title>
+</head>
+<body>
+    <button type="button" onclick="boxon()">On Box</button>
+    <button type="button" onclick="boxoff()">Off Box</button>
+    <button type="button" onclick="onoff()">On - Off</button>
+    <button type="button" onclick="move()">Move</button>
+    <input type="number" name="minute" placeholder="Space">
+    <div class="box">
+        <h1 id="heading">Tieu de jQuery</h1>
+        <h2>Tac gia: jQuery</h2>
+        <p class="pg">Compressed and uncompressed copies of jQuery files are available.</p>
+        <p class="pg">The uncompressed file is best used during development or debugging;
+        the compressed file saves bandwidth and improves performance in production</p>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        var h = $("#heading");  //=getbyID
+        h.css("color","red");
+        h.css({
+            "color":"green",
+            "background-color":"pink",
+            "border-bottom": "1px solid blue"
+        });
+        console.log(h.text());
+        h.text("Xin chao ca lop");
+        console.log(h.html());
+        h.html("<i>HAHAHA</i>");
+        h.html(h.html()+"<u>T2005e</u>");
+        h.append("<i>Hello world</i>"); // them phia sau h.html
+        h.prepend("<i>aaaaaa</i>"); // them phia truoc h.html
+        h.addClass("active"); // them class
+        h.removeClass("abc"); // xoa class
+        //class
+        var pg = $(".pg"); // getsbyClass
+        pg.css("color","orange");
+        var p = $("p"); // getsbyTabname
+        p.css("text-transform","uppercase");
+        function boxon() {
+            var box = $(".box");
+            // hien len
+            // box.show();
+            // box.fadeIn(); // truyen vao thoi gian
+            box.slideDown();
+        }
+        function boxoff() {
+            var box = $(".box");
+            // an di
+            // box.hide();
+            // box.fadeOut(); // truyen vao thoi gian
+            box.slideUp();
+        }
+        function onoff() {
+            var box = $(".box");
+            // vua an vua hien
+            // box.toggle(); // kieu show-hide
+            // box.fadeToggle(); // kieu fade
+            box.slideToggle(); // kieu slide
+        }
+        function move() {
+            var box = $(".box");
+            var m = $("input[name=minute]").val();
+            m = parseInt(m);
+            m = isNaN(m)?0:m; // neu m = nan lay 0 con lai lay m
+            box.animate({
+                "margin-left": m*20+"px",
+            },400);
+        }
+    </script>
+</body>
+</html>

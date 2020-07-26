@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js_html</title>
+</head>
+<body>
+    <h1 id="title" class="abc"><i>Day la tieu de bai bao</i></h1>
+    <p id="content">Chủ tịch của Crystal Palace, ông Steve Parish đã bình luận: “VAR hỏng à?” khi chứng kiến những
+        tình huống đội nhà không được công nghệ hỗ trợ trọng tài ủng hộ. Palace chơi quả cảm nhưng
+        không thể tạo ra khác biệt trước một MU đẳng cấp hơn và có sự song hành của may mắn</p>
+    <script type="text/javascript">
+        // var obj = {
+        //     name: "Nguyen Thi Na",
+        //     age: 16,
+        //     tel: "0123456789",
+        //     chay: function () {
+        //         console.log(this.name+" dang chay");
+        //         return this; // viet lien hoan ham truoc phai tra ve doi tuong obj nao do
+        //     },
+        //     an: function () {
+        //         console.log(this.name+" dang an");
+        //         return this;
+        //     }
+        // }; //this su dyng trong pham vi object
+        // console.log("ten cua ban: "+obj.name);
+        // obj.chay();
+        // obj.chay().an().chay().an(); // viet lien hoan
+        // obj.name = "Nguyen Ki Duyen";
+        // console.log(obj.name+" tel: "+obj.tel);
+        // obj.chay();
+        var sv={
+            ten: "abc",
+            tuoi: 20,
+            bangai:{
+                ten: "xyz",
+                tuoi: 18,
+                vetinh:[
+                    {
+                        ten: "qwe",
+                        tuoi: 18
+                    },
+                    {
+                        ten: "asd",
+                        tuoi: 20
+                    }
+                ]
+            }
+        };
+        //tao cao DOM element
+        var h = document.getElementById("title"); //lay phan tu theo id
+        console.log(h.innerText); //lay ra dong chu cua h
+        console.log(h.innerHTML);
+        h.innerText= "Doi lai tieu de"; // chi thay doi text xoa het style
+        console.log(h.innerText);
+        h.innerHTML="<i><b>Noi dung bat ky</b></i>"; // thay doi ca style
+        console.log(h.innerHTML);
+        h.style.color = "yellow"; // doi mau
+        h.style.fontSize= "50px"; // doi font font-size >> fontSize
+        h.style.backgroundColor= "green";
+        h.classList.add("tieude"); // them class vao h
+        h.classList.remove("abc"); // bo class abc
+    </script>
+</body>
+</html>

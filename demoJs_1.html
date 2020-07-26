@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DemoJs_1</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //cach 1 nhung code js vao day
+        //cach 2 nhung link o day (dung neu can viet Js doc lap)
+        //chay cach 2 thi ko chay dc cach 1
+        //khai bao bien o dau cung chay trong toan bo chuong trinh
+        // alert("Trang nay khong danh cho nguoi duoi 18 tuoi"); //thong bao
+        // var v = confirm("Ban co chac chan muon di tiep"); //tra ve true hoac false
+        // console.log(v);
+        // var r = Math.random()*100;
+        // r=parseInt(r);
+        // console.log(r);
+        // do{
+        //     var p= prompt("nhap vao so may man cua ban"); //tra ve chuoi, ko nhap chuoi trong, cancel : null
+        //     p = parseInt(p);
+        //     console.log(p);
+        // }while (isNaN(p) || p>100 || p<0);
+        // if (p==r){
+        //     alert("Ban da trung thuong");
+        // }else{
+        //     alert("Thu lai lan sau");
+        // }
+        // setTimeout(function () {
+        //     confirm("cho 3s moi xuat hien");
+        // },3000); // thoi gian tre
+        // setInterval(function () {
+        // },3000); // chay vinh vien sau 1 khoang
+        // var stv=setInterval(function () {
+        //     var r1= Math.random()*6+1,r2= Math.random()*6+1,r3= Math.random()*6+1;
+        //     r1=parseInt(r1);
+        //     r2=parseInt(r2);
+        //     r3=parseInt(r3);
+        //     var r=r1+r2+r3;
+        //     var p = confirm("Bạn đặt TÀI ấn ok, đặt SỬU ấn cancel");
+        //     console.log(p);
+        //     console.log(r);
+        //     if (((r>9)&&(p==true))||((r<10)&&(p==false))){
+        //         alert("Bạn đã trúng thưởng");
+        //         clearInterval(stv); // thoat vong lap interval
+        //     }else{
+        //         alert("Bạn đã mất tiền chơi ngu");
+        //     }
+        // },3000);
+        // trong js, cac lenh se chay cung luc, lenh nao nhanh hon thi xong truoc
+        //vietlot
+        var random = [];
+        do {
+            var r = parseInt(Math.random()*100);
+            if (!random.includes(r,0)){
+                random.push(r);
+                console.log(r);
+            }
+        }while (random.length<5);
+        var luachon = [];
+        do{
+            var a = prompt("chon so may man thu "+(luachon.length+1));
+            a = parseInt(a);
+            if (!luachon.includes(a,0) && !isNaN(a) && a>=0 && a<100){
+                luachon.push(a);
+                console.log(a);
+            }
+        }while (luachon.length<5);
+        var c = 0;
+        luachon.map(function (n) { //duyet mang dua phan tu thu i vao so n
+            if(random.includes(n,0)){
+                c++;
+            }
+        })
+        if (c>=5){
+            alert("Ban da trung giai dac biet 100 ty");
+        }else if (c>=4){
+            alert("Ban da trung giai nhat 30tr");
+        }else  if (c>=3){
+            alert("Ban da trung giai nhi 1tr");
+        }else {
+            alert("Chuc ban may man lan sau");
+        }
+    </script>
+<!--    <script type="text/javascript" src="js/Js1.js"></script> -->
+</body>
+</html>

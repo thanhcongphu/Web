@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo_Js4</title>
+    <link rel="stylesheet" type="text/css" href="css/event.css">
+</head>
+<body>
+    <button type="button" onclick="ok()">Ok</button>
+    <div id="box" class="box" onmouseenter="green(this)"
+         onmouseleave="pink(this)" ondblclick="dbc(this)"></div>
+    <p oncopy="abc()" oncut="abc()" onpaste="abc()">Create a cool and sporty look with the FILA® Locker Room Varsity Jacket.
+        Comfortable cotton-blend fabrication.</p>
+    </br>
+    <input type="text" name="demo" onkeydown="keydown(this)"
+           onkeyup="keyup(this)" onkeypress="keypress(this)"/>
+    </br>
+    <select name="sex" onchange="gender(this)">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    <form action="#" method="get">
+        <input name="email" type="email" placeholder="Email">
+        <button type="submit" onclick="return confirm('Chac chan gui di khong')">Submit</button>
+    </form>
+    <script type="text/javascript">
+        function ok() {
+            alert("hello world");
+        }
+        // function green() {
+        //     document.getElementById("box").style.backgroundColor = "green";
+        // }
+        // function pink() {
+        //     document.getElementById("box").style.backgroundColor = "pink";
+        // }
+        // function dbc() {
+        //     document.getElementById("box").style.backgroundColor = "red";
+        // }
+        function green(e) {
+            e.style.backgroundColor = "green";
+        }
+        function pink(e) {
+            e.style.backgroundColor = "pink";
+        }
+        function dbc(e) {
+            e.style.backgroundColor = "red";
+        }
+        function abc() {
+            alert("Vi pham ban quyen ...");
+        }
+        function keydown(e) {
+            var v = "keydown "+e.value;
+            console.log(v);
+        }
+        // function keyup(e) {
+        //     var v = "keyup "+e.value;
+        //     console.log(v);
+        // }
+        function keypress(e) {
+            var v = "keypress "+e.value;
+            console.log(v);
+        }
+        function gender(g) {
+            var v= g.value;
+            console.log(v)
+        }
+        function keyup(e) {
+            var v = e.value;
+            var kc = event.keyCode;
+            console.log(kc);
+            if (kc==13){
+                console.log(v);
+            }
+        }
+    </script>
+</body>
+</html>
