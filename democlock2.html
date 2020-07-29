@@ -9,11 +9,11 @@
     <h1><span class="hour">00</span>:<span class="min">00</span>:<span class="sec">00</span></h1>
     </br>
     <div class="clock">
-        <div class="kgio">
-            <img width="50" height="125" src="imgs/gio.png">
-        </div>
         <div class="kgiay">
             <img width="25" height="200" src="imgs/giay.png">
+        </div>
+        <div class="kgio">
+            <img width="50" height="125" src="imgs/gio.png">
         </div>
         <div class="kphut">
             <img width="25" height="150" src="imgs/phut.png">
@@ -22,7 +22,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
         var td = new Date();
-        var m1=td.getHours();m2=td.getMinutes(),m3=td.getSeconds();
+        var m1=td.getHours();m2=td.getMinutes(),m3=td.getSeconds()+1;
         setInterval(function () {
             $(".kgio").css("transform","rotate("+m1*30+"deg)");
             $(".kphut").css("transform","rotate("+m2*6+"deg)");

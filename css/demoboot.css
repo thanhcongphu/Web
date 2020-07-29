@@ -1,0 +1,12 @@
+.a{
+    float: left;
+    width: 100%;
+}
+.box{
+    float: left;
+    width: 100%;
+    background-color: red;
+}
+/*class row : keo lai le col (col : padding 15px*/
+/*Lam table dep : class table, table-bordered, table-hover, table-striped*/
+/*form : form-group, form-control dai toan div*/
