@@ -5,21 +5,23 @@
     <title>Blogpage</title>
     <link rel="stylesheet" type="text/css" href="css/blog.css">
     <link rel="stylesheet" href="lib/Icon/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="section header">
     <div class="container">
-        <div class="logo">
-            <img src="imgs/logo.jpg">
-        </div>
         <div class="menu">
             <ul>
-                <li><a href="#">HOME</a> </li>
-                <li><a href="#">ABOUT</a> </li>
-                <li><a href="#">SHOP</a> </li>
-                <li><a href="#">PRODUCT</a> </li>
-                <li><a href="#">BLOG</a> </li>
+                <li><a href="#"><span>HOME</span><div></div> </a> </li>
+                <li><a href="#"><span>ABOUT</span><div></div> </a> </li>
+                <li><a href="#"><span>SHOP</span><div></div> </a> </li>
+                <li><a href="#"><span>PRODUCT</span><div></div> </a> </li>
+                <li><a href="#"><span>BLOG</span><div></div> </a> </li>
+                <li><a href="#"><span>CONTACT</span><div></div> </a> </li>
             </ul>
+        </div>
+        <div class="logo">
+            <img src="imgs/logo.jpg">
         </div>
     </div>
 </header>
@@ -80,51 +82,30 @@
             </div>
         </div>
         <div class="right">
-            <div class="page">
-                <div class="gallery1">
-                </div>
-                <p><br/>
-                    <h1><a href="#">Ways To Experience The Matcha Heaven</a></h1>
-                    <br/> <i> Dec 08, 2018 /</i> <i style="color: green"> Sabujcha Demo Admin </i><br/>
-                    <br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprhendit in voluptate
-                    velit esse exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor...
-                    <br/>
-                    <br/>
-                </p>
-                <div class="more">
-                    <a href="#">------ Read More</a>
-                </div>
-                <div class="share">
-                    <p>Share : <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                        <a href="#"><i class="fab fa-google-plus"></i></a>
-                    </p>
-                </div>
-            </div>
-            <div class="page">
-                <div class="gallery2">
-                </div>
-                <p><br/>
-                    <h1><a href="#">World’s Most Popular Tea Drinks Is Sabujcha.</a></h1>
-                    <br/> <i> Dec 08, 2018 /</i> <i style="color: green"> Sabujcha Demo Admin </i><br/>
-                    <br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprhendit in voluptate
-                    velit esse exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor...
-                    <br/>
-                    <br/>
-                </p>
-                <div class="more">
-                    <a href="#">------ Read More</a>
-                </div>
-                <div class="share">
-                    <p>Share : <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                        <a href="#"><i class="fab fa-google-plus"></i></a>
-                    </p>
-                </div>
+            <div id="blog">
+<!--            <div class="page">-->
+<!--                <div style="background-image: url(imgs/right1.jpg)" class="gallery">-->
+<!--                </div>-->
+<!--                <p><br/>-->
+<!--                    <h1><a href="#">Ways To Experience The Matcha Heaven</a></h1>-->
+<!--                    <br/> <i> Dec 08, 2018 /</i> <i style="color: green"> Sabujcha Demo Admin </i><br/>-->
+<!--                    <br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt-->
+<!--                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprhendit in voluptate-->
+<!--                    velit esse exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor...-->
+<!--                    <br/>-->
+<!--                    <br/>-->
+<!--                </p>-->
+<!--                <div class="more">-->
+<!--                    <a href="#">&#45;&#45;&#45;&#45;&#45;&#45; Read More</a>-->
+<!--                </div>-->
+<!--                <div class="share">-->
+<!--                    <p>Share : <a href="#"><i class="fab fa-facebook-f"></i></a>-->
+<!--                        <a href="#"><i class="fab fa-twitter"></i></a>-->
+<!--                        <a href="#"><i class="fab fa-pinterest"></i></a>-->
+<!--                        <a href="#"><i class="fab fa-google-plus"></i></a>-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--             </div>-->
             </div>
             <div class="roll">
                 <a href="#">< Prev</a>
@@ -197,5 +178,50 @@
         </div>
     </div>
 </footer>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    var pg=[
+        {
+            img: "imgs/right1.jpg",
+            tit: "Ways To Experience The Matcha Heaven",
+            date: "Dec 08, 2018",
+            aut: "Sabujcha Demo Admin",
+            des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt\n" +
+                "                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprhendit in voluptate\n" +
+                "                    velit esse exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor..."
+        },
+        {
+            img: "imgs/right2.jpg",
+            tit: "World’s Most Popular Tea Drinks Is Sabujcha.",
+            date: "Dec 08, 2018",
+            aut: "Sabujcha Demo Admin",
+            des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt\n" +
+                "                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprhendit in voluptate\n" +
+                "                    velit esse exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor..."
+        }
+    ];
+    for (var i of pg){
+        var sp = " <div class=\"page\"><div style=\"background-image: url("+i.img+")\" class=\"gallery\">\n" +
+            "                </div>\n" +
+            "                <p><br/>\n" +
+            "                    <h1><a href=\"#\">"+i.tit+"</a></h1>\n" +
+            "                    <br/> <i> "+i.date+" /</i> <i style=\"color: green\"> "+i.aut+" </i><br/>\n" +
+            "                    <br/>"+i.des+"\n" +
+            "                    <br/>\n" +
+            "                    <br/>\n" +
+            "                </p>\n" +
+            "                <div class=\"more\">\n" +
+            "                    <a href=\"#\">------ Read More</a>\n" +
+            "                </div>\n" +
+            "                <div class=\"share\">\n" +
+            "                    <p>Share : <a href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>\n" +
+            "                        <a href=\"#\"><i class=\"fab fa-twitter\"></i></a>\n" +
+            "                        <a href=\"#\"><i class=\"fab fa-pinterest\"></i></a>\n" +
+            "                        <a href=\"#\"><i class=\"fab fa-google-plus\"></i></a>\n" +
+            "                    </p>\n" +
+            "                </div></div>";
+        $("#blog").append(sp);
+    };
+</script>
 </body>
 </html>
