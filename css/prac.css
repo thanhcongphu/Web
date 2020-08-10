@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header .menu{
+    width: 100%;
+    background-image: url("../imgs/prac/menu.jpg");
+    background-size: cover;
+    padding: 60px 100px 0 500px;
+    height: 200px;
+}
+.header .menu li{
+    font-size: 15px;
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header .menu li a{
+    text-decoration: none;
+    color: khaki;
+}
+.section .left{
+    width: 75%;
+    float: left;
+    background-color: #6e6943;
+    height: 450px;
+}
+.section .left .page1,.section .left .page2{
+    padding: 0 50px 50px 50px;
+}
+.section .left .page1 h1{
+    margin-top: -50px;
+    margin-left: 500px;
+}
+.section .left .page2 .giv{
+    height: 1px;
+    background-color: #5c5632;
+}
+.section .right{
+    float: left;
+    width: 25%;
+    background-color: #6e6943;
+    height: 450px;
+}
+.section .right h1{
+    margin-top: -50px;
+    text-align: center;
+}
+.section .right .img{
+    float: left;
+    width: 50%;
+}
+.section .right .img{
+    text-align: center;
+    padding: 10px;
+}
+.section .right figcaption{
+    font-weight: 15px;
+    color: khaki;
+}
+.section .giv1{
+    width: 2px;
+    background-color: #5c5632;
+    height: 400px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 400px;
+}
